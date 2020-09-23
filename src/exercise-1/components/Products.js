@@ -36,18 +36,9 @@ class Products extends React.Component {
         return (
             <div>
                 <h1>All Products:</h1>
-
-                <ul>
-                {
-                    this.state.products.map(item => (
-                        <li key={item.id}>
-                            <Link
-                                to={`/ProductDetails/${item.id}`}>
-                                {item.name}</Link>
-                        </li>
-                    ))
-                }
-            </ul>
+                <Link to="/ProductDetails/1">Bicycle</Link><br/>
+                <Link to="/ProductDetails/2">TV</Link><br/>
+                <Link to="/ProductDetails/3">Pencil</Link><br/>
             </div>
         )
     }
