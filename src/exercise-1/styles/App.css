@@ -1,0 +1,59 @@
+.app {
+    height: 600px;
+    width: 800px;
+    border: 1px solid #cccccc;
+    margin: auto;
+  }
+  
+  .page {
+    padding-left: 20px;
+  }
+  
+  .page h1 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .page a {
+    color: red;
+  }
+  
+  header {
+    height: 40px;
+    line-height: 40px;
+    background-color: #cccccc;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  header a.active {
+    text-decoration: underline;
+  }
+  
+  li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  nav {
+    width: fit-content;
+    margin-left: auto;
+  }
+  
+  nav > ul {
+    display: flex;
+    margin-right: 20px;
+    margin-left: auto;
+  }
+  
+span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+  .product-name a {
+    text-decoration: none;
+  }
